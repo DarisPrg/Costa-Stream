@@ -42,4 +42,5 @@ DailymotionProvider
 InternetArchiveProvider
 
 # ---- Phisher Repo ----
-[https://raw.githubusercontent.com/phisher98/cloudstream-extensions-phisher/refs/heads/builds/plugins.jso
+[https://raw.githubusercontent.com/phisher98/cloudstream-extensions-phisher/refs/heads/builds/plugins.json]
+YTS
