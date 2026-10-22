@@ -1,0 +1,59 @@
+name: Actualizar plugins
+
+on:
+  schedule:
+    - cron: "0 9 * * *"   # todos los días a las 9:00 UTC (6:00 en Argentina)
+  workflow_dispatch:       # permite ejecutarlo a mano desde la pestaña Actions
+
+permissions:
+  contents: write
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar mi repo
+        uses: actions/checkout@v4
+
+      - name: Filtrar plugins del repo original
+        env:
+          UPSTREAM: https://raw.githubusercontent.com/redblacker8/storm-ext/builds/plugins.json
+        run: |
+          python3 - <<'PY'
+          import json, os, sys, urllib.request
+
+          with urllib.request.urlopen(os.environ["UPSTREAM"], timeout=60) as r:
+              data = json.loads(r.read().decode("utf-8"))
+
+          with open("lista.txt", encoding="utf-8") as f:
+              wanted = [l.strip() for l in f if l.strip() and not l.strip().startswith("#")]
+
+          by_name = {p.get("internalName"): p for p in data}
+          result = [by_name[n] for n in wanted if n in by_name]
+          missing = [n for n in wanted if n not in by_name]
+
+          for n in missing:
+              print(f"::warning::'{n}' no está en el repo original (lo borraron o le cambiaron el nombre)")
+
+          if not result:
+              print("::error::El filtro quedó vacío, no se modifica plugins.json")
+              sys.exit(1)
+
+          with open("plugins.json", "w", encoding="utf-8") as f:
+              json.dump(result, f, indent=4, ensure_ascii=False)
+              f.write("\n")
+
+          print(f"{len(result)} plugins guardados, {len(missing)} no encontrados")
+          PY
+
+      - name: Guardar cambios (solo si hubo)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add plugins.json
+          if git diff --cached --quiet; then
+            echo "Sin cambios, todo al día."
+          else
+            git commit -m "Actualizar plugins desde redblacker8"
+            git push
+          fi
