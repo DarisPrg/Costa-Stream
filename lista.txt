@@ -1,6 +1,10 @@
 # Plugins de Costa Stream
-# Un nombre por línea (el "internalName" de cada plugin).
+# Cada fuente empieza con su URL de plugins.json entre corchetes: [https://...]
+# Debajo van los nombres (internalName) que querés de esa fuente, uno por línea.
 # Las líneas que empiezan con # se ignoran.
+
+# ---- Storm-ext Fork by redblacker8 ----
+[https://raw.githubusercontent.com/redblacker8/storm-ext/builds/plugins.json]
 AllCalidadProvider
 AreaDocumentalProvider
 CablevisionHdProvider
@@ -28,3 +32,14 @@ SeriesflixProvider
 SeriesMetroProvider
 SoloLatinoProvider
 StreamedProvider
+
+# ---- Repo oficial de CloudStream ----
+[https://raw.githubusercontent.com/recloudstream/extensions/builds/plugins.json]
+YoutubeProvider
+InvidiousProvider
+TwitchProvider
+DailymotionProvider
+InternetArchiveProvider
+
+# ---- Phisher Repo ----
+[https://raw.githubusercontent.com/phisher98/cloudstream-extensions-phisher/refs/heads/builds/plugins.jso
