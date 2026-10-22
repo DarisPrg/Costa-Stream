@@ -1,13 +1,13 @@
 [
   {
     "name": "Cuevana",
-    "url": "https://githubusercontent.com",
+    "url": "https://raw.githubusercontent.com/recloudstream/megarepo/master/plugins/Cuevana.jar",
     "version": 1,
     "description": "Películas y series en Español Latino"
   },
   {
     "name": "Sorastream",
-    "url": "https://githubusercontent.com",
+    "url": "https://raw.githubusercontent.com/recloudstream/megarepo/master/plugins/Sorastream.jar",
     "version": 1,
     "description": "Contenido multiidioma y alta calidad"
   }
