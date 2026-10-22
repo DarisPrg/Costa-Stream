@@ -8,7 +8,7 @@
         "authors": [
             "redblacker8"
         ],
-        "description": "Pel\u00edculas, series y animes online en HD.",
+        "description": "Películas, series y animes online en HD.",
         "fileSize": 35828,
         "repositoryUrl": "https://github.com/redblacker8/storm-ext",
         "language": "mx",
@@ -21,7 +21,6 @@
         "apiVersion": 1,
         "fileHash": "sha256-028b67fbde0b861ca085ee4f8c46d1afac3488a415a1cfacac4e0f70f0c02196"
     },
-   
     {
         "url": "https://raw.githubusercontent.com/redblacker8/storm-ext/builds/AreaDocumentalProvider.cs3",
         "status": 1,
@@ -70,7 +69,7 @@
         "authors": [
             "redblacker8"
         ],
-        "description": "Cat\u00e1logo general de TMDB en espa\u00f1ol: tendencias, populares, estrenos y g\u00e9neros. Delega reproducci\u00f3n a otros proveedores instalados.",
+        "description": "Catálogo general de TMDB en español: tendencias, populares, estrenos y géneros. Delega reproducción a otros proveedores instalados.",
         "fileSize": 42332,
         "repositoryUrl": "https://github.com/redblacker8/storm-ext",
         "language": "mx",
@@ -91,7 +90,7 @@
         "authors": [
             "redblacker8"
         ],
-        "description": "Cat\u00e1logo HBO Max M\u00e9xico/LATAM en espa\u00f1ol: popular, mejor calificada, estrenos y g\u00e9neros. No aloja fuentes: busca contenido con la lupa del detalle.",
+        "description": "Catálogo HBO Max México/LATAM en español: popular, mejor calificada, estrenos y géneros. No aloja fuentes: busca contenido con la lupa del detalle.",
         "fileSize": 42381,
         "repositoryUrl": "https://github.com/redblacker8/storm-ext",
         "language": "mx",
@@ -112,7 +111,7 @@
         "authors": [
             "redblacker8"
         ],
-        "description": "Cat\u00e1logo infantil y familiar clasificaci\u00f3n AA: recomendaciones, estrenos, tendencias y g\u00e9neros. No aloja fuentes: busca contenido con la lupa del detalle.",
+        "description": "Catálogo infantil y familiar clasificación AA: recomendaciones, estrenos, tendencias y géneros. No aloja fuentes: busca contenido con la lupa del detalle.",
         "fileSize": 42955,
         "repositoryUrl": "https://github.com/redblacker8/storm-ext",
         "language": "mx",
@@ -133,7 +132,7 @@
         "authors": [
             "redblacker8"
         ],
-        "description": "Cat\u00e1logo Netflix M\u00e9xico/LATAM en espa\u00f1ol: popular, mejor calificada, estrenos y g\u00e9neros. No aloja fuentes: busca contenido con la lupa del detalle.",
+        "description": "Catálogo Netflix México/LATAM en español: popular, mejor calificada, estrenos y géneros. No aloja fuentes: busca contenido con la lupa del detalle.",
         "fileSize": 46792,
         "repositoryUrl": "https://github.com/redblacker8/storm-ext",
         "language": "mx",
@@ -515,7 +514,7 @@
         "authors": [
             "redblacker8"
         ],
-        "description": "Peliculas, series, animes y cartoons en Espa\u00f1ol y Espa\u00f1ol Latio",
+        "description": "Peliculas, series, animes y cartoons en Español y Español Latio",
         "fileSize": 43584,
         "repositoryUrl": "https://github.com/redblacker8/storm-ext",
         "language": "mx",
@@ -548,5 +547,5 @@
         "iconUrl": "https://streamed.pk/favicon.png",
         "apiVersion": 1,
         "fileHash": "sha256-d785b4ad7cad4fc68fea23cfdc03a3ae43748947527d52cb7bf81f35692c7161"
-   }
+    }
 ]
