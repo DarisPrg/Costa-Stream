@@ -1,0 +1,8 @@
+{
+  "name": "Costa Stream",
+  "description": "Filtrado exclusivo para mis Smart TVs",
+  "manifestVersion": 1,
+  "pluginLists": [
+    "https://github.com/DarisPrg/Costa-Stream/raw/refs/heads/main/plugins.json"
+  ]
+}
