@@ -13,37 +13,57 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Descargar mi repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
-      - name: Filtrar plugins del repo original
-        env:
-          UPSTREAM: https://raw.githubusercontent.com/redblacker8/storm-ext/builds/plugins.json
+      - name: Filtrar plugins de todas las fuentes
         run: |
           python3 - <<'PY'
-          import json, os, sys, urllib.request
+          import json, sys, urllib.request
 
-          with urllib.request.urlopen(os.environ["UPSTREAM"], timeout=60) as r:
-              data = json.loads(r.read().decode("utf-8"))
+          DEFAULT = "https://raw.githubusercontent.com/redblacker8/storm-ext/builds/plugins.json"
 
+          # Leer lista.txt: [url] abre una sección; los nombres sin sección van al repo por defecto
+          sections, current = {}, DEFAULT
           with open("lista.txt", encoding="utf-8") as f:
-              wanted = [l.strip() for l in f if l.strip() and not l.strip().startswith("#")]
+              for line in f:
+                  line = line.strip()
+                  if not line or line.startswith("#"):
+                      continue
+                  if line.startswith("[") and line.endswith("]"):
+                      current = line[1:-1].strip()
+                      sections.setdefault(current, [])
+                      continue
+                  sections.setdefault(current, []).append(line)
 
-          by_name = {p.get("internalName"): p for p in data}
-          result = [by_name[n] for n in wanted if n in by_name]
-          missing = [n for n in wanted if n not in by_name]
+          result, seen, errores = [], set(), 0
+          for url, wanted in sections.items():
+              if not wanted:
+                  continue
+              try:
+                  with urllib.request.urlopen(url, timeout=60) as r:
+                      data = json.loads(r.read().decode("utf-8"))
+              except Exception as e:
+                  print(f"::error::No se pudo leer {url}: {e}")
+                  errores += 1
+                  continue
+              by_name = {p.get("internalName"): p for p in data}
+              for n in wanted:
+                  if n not in by_name:
+                      print(f"::warning::'{n}' no está en {url}")
+                  elif n in seen:
+                      print(f"::warning::'{n}' está repetido en otra fuente, se usa el primero")
+                  else:
+                      result.append(by_name[n]); seen.add(n)
 
-          for n in missing:
-              print(f"::warning::'{n}' no está en el repo original (lo borraron o le cambiaron el nombre)")
-
-          if not result:
-              print("::error::El filtro quedó vacío, no se modifica plugins.json")
+          # Si alguna fuente falló, no se toca plugins.json (para no perder plugins)
+          if errores or not result:
+              print("::error::Hubo fuentes con error o el filtro quedó vacío, no se modifica plugins.json")
               sys.exit(1)
 
           with open("plugins.json", "w", encoding="utf-8") as f:
               json.dump(result, f, indent=4, ensure_ascii=False)
               f.write("\n")
-
-          print(f"{len(result)} plugins guardados, {len(missing)} no encontrados")
+          print(f"{len(result)} plugins guardados de {len([s for s in sections.values() if s])} fuentes")
           PY
 
       - name: Guardar cambios (solo si hubo)
@@ -54,6 +74,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "Sin cambios, todo al día."
           else
-            git commit -m "Actualizar plugins desde redblacker8"
+            git commit -m "Actualizar plugins"
             git push
           fi
