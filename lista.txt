@@ -1,0 +1,30 @@
+# Plugins de Costa Stream
+# Un nombre por línea (el "internalName" de cada plugin).
+# Las líneas que empiezan con # se ignoran.
+AllCalidadProvider
+AreaDocumentalProvider
+CablevisionHdProvider
+CatalogoGeneral
+CatalogoHboMax
+CatalogoInfantil
+CatalogoNetflix
+CinecalidadProvider
+CineHdPlusProvider
+CuevanaProvider
+DeporTVProvider
+DocumaniaTVProvider
+DoramasFlixProvider
+DoramasYTProvider
+EntrepeliculasyseriesProvider
+HDFullProvider
+JKAnimeProvider
+LACartoonsProvider
+LaMovieProvider
+PeliculasFlixProvider
+PelispediaProvider
+Pelisplus4KProvider
+PelisplusHDProvider
+SeriesflixProvider
+SeriesMetroProvider
+SoloLatinoProvider
+StreamedProvider
