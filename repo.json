@@ -3,6 +3,6 @@
   "description": "Filtrado exclusivo para mis Smart TVs",
   "manifestVersion": 1,
   "pluginLists": [
-    "https://githubusercontent.com"
+    "https://raw.githubusercontent.com/DarisPrg/Costa-Stream/main/plugins.json"
   ]
 }
