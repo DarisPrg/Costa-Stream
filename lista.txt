@@ -45,3 +45,7 @@ InternetArchiveProvider
 [https://raw.githubusercontent.com/phisher98/cloudstream-extensions-phisher/refs/heads/builds/plugins.json]
 YTS
 StreamPlay
+
+ # ---- Mis plugins ----
+   [https://raw.githubusercontent.com/DarisPrg/Costa-Plugins/builds/plugins.json]
+   Clasicos80
