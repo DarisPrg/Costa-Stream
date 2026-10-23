@@ -49,3 +49,9 @@ StreamPlay
  # ---- Mis plugins ----
    [https://raw.githubusercontent.com/DarisPrg/Costa-Plugins/builds/plugins.json]
    Clasicos80
+
+# ---- Mis plugins ----
+[https://raw.githubusercontent.com/DarisPrg/Costa-Plugins/builds/plugins.json]
+Clasicos80
+Clasicos90
+ModoVacaciones
