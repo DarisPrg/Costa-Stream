@@ -324,26 +324,6 @@
         "fileHash": "sha256-f104e67b3fbdbe65bb9751462ebdfd2e1ae9d27129d0df78143cedc037a32b3d"
     },
     {
-        "url": "https://raw.githubusercontent.com/redblacker8/storm-ext/builds/JKAnimeProvider.cs3",
-        "status": 1,
-        "version": 9,
-        "name": "JKAnimeProvider",
-        "internalName": "JKAnimeProvider",
-        "authors": [
-            "Stormunblessed"
-        ],
-        "fileSize": 35359,
-        "repositoryUrl": "https://github.com/redblacker8/storm-ext",
-        "language": "mx",
-        "tvTypes": [
-            "Anime",
-            "OVA"
-        ],
-        "iconUrl": "https://www.google.com/s2/favicons?domain=jkanime.net&sz=%size%",
-        "apiVersion": 1,
-        "fileHash": "sha256-bb5467379bf01cb23a81e26d430afe1b36ea2ebf7dc56160aa78de574e55f977"
-    },
-    {
         "url": "https://raw.githubusercontent.com/redblacker8/storm-ext/builds/LACartoonsProvider.cs3",
         "status": 1,
         "version": 5,
@@ -708,11 +688,248 @@
         "fileHash": "sha256-2c9be0404fe4527a70824a17740f8a0f2b3906b74fdf759600e7475364e4ab5c"
     },
     {
+        "url": "https://raw.githubusercontent.com/phisher98/cloudstream-extensions-phisher/builds/AllMovieLandProvider.cs3",
+        "status": 1,
+        "version": 25,
+        "name": "AllMovieLandProvider",
+        "internalName": "AllMovieLandProvider",
+        "authors": [
+            "Phisher98"
+        ],
+        "description": "Indian MultiLanguage Provider (Mostly Hindi)",
+        "fileSize": 85605,
+        "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+        "language": "hi",
+        "tvTypes": [
+            "Movie",
+            "TvSeries",
+            "Cartoon"
+        ],
+        "iconUrl": "https://raw.githubusercontent.com/LikDev-256/likdev256-tamil-providers/master/AllMovieLandProvider/icon.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-1282e16296bcb80dfe5c07e5aed8dda0ca4a744973abaa000ef0a3d714aa09d7"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/phisher98/cloudstream-extensions-phisher/builds/Cinemacity.cs3",
+        "status": 1,
+        "version": 27,
+        "name": "Cinemacity",
+        "internalName": "Cinemacity",
+        "authors": [
+            "Phisher98"
+        ],
+        "description": "Watch Movies & TvSeries (Multi-Lang/Audio)",
+        "fileSize": 132882,
+        "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
+        "language": "en",
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=cinemacity.cc&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-afd3429a2c781d5f9de6ec4d02d706af4ae8789caa3ddc4d8603d02d2473584c"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/Kraptor123/Cs-Karma/builds/Flixlatam.cs3",
+        "status": 1,
+        "version": 9,
+        "name": "Flixlatam",
+        "internalName": "Flixlatam",
+        "authors": [
+            "ByAyzen"
+        ],
+        "description": "Mira tus Series, Películas y Animes en Latino Online!",
+        "fileSize": 78003,
+        "repositoryUrl": "https://github.com/Kraptor123/Cs-Karma",
+        "language": "mx",
+        "tvTypes": [
+            "Movie"
+        ],
+        "iconUrl": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://flixlatam.com&size=128",
+        "apiVersion": 1,
+        "fileHash": "sha256-00c99bdd57e1628924143a9010688e5e5e40b860b95e2947672b9d7f97e4cb79"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/Kraptor123/Cs-Karma/builds/Gnulahd.cs3",
+        "status": 1,
+        "version": 12,
+        "name": "Gnulahd",
+        "internalName": "Gnulahd",
+        "authors": [
+            "ByAyzen"
+        ],
+        "description": "GnulaHD",
+        "fileSize": 74331,
+        "repositoryUrl": "https://github.com/Kraptor123/Cs-Karma",
+        "language": "mx",
+        "tvTypes": [
+            "Movie",
+            "Anime",
+            "TvSeries"
+        ],
+        "iconUrl": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://ww3.gnulahd.nu/&size=128",
+        "apiVersion": 1,
+        "fileHash": "sha256-e2a9afff330c850bbcdd4bdfaaa40ef9558edee563006816115e2802e91f6798"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/Kraptor123/Cs-Karma/builds/Hackstore.cs3",
+        "status": 1,
+        "version": 2,
+        "name": "Hackstore",
+        "internalName": "Hackstore",
+        "authors": [
+            "ByAyzen"
+        ],
+        "description": "Descargar peliculas, series y animes en alta calidad de forma rápida y segura. Disfruta de una amplia selección de contenido. ¡Empieza hoy mismo!",
+        "fileSize": 42915,
+        "repositoryUrl": "https://github.com/Kraptor123/Cs-Karma",
+        "language": "es",
+        "tvTypes": [
+            "Movie",
+            "TvSeries",
+            "Anime"
+        ],
+        "iconUrl": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://hackstore2.com/&size=128",
+        "apiVersion": 1,
+        "fileHash": "sha256-d0ae64df7d3de29e9bdbf4e229a91c44ba2c1aa91926665f6e47229e191f52ad"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/Kraptor123/Cs-Karma/builds/DocumentaryArea.cs3",
+        "status": 1,
+        "version": 2,
+        "name": "DocumentaryArea",
+        "internalName": "DocumentaryArea",
+        "authors": [
+            "ByAyzen"
+        ],
+        "description": "Watch the best online documentary films.Stunning collection of awesome, eyeopening, interesting, just released, full documentaries.",
+        "fileSize": 15657,
+        "repositoryUrl": "https://github.com/Kraptor123/Cs-Karma",
+        "language": "en",
+        "tvTypes": [
+            "Documentary"
+        ],
+        "iconUrl": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://documentaryarea.com&size=128",
+        "apiVersion": 1,
+        "fileHash": "sha256-021886e32fcf3b9b9de3354d568fca7654547d25192c35ae2628074461dba083"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/Kraptor123/Cs-Karma/builds/Supercartoons.cs3",
+        "status": 1,
+        "version": 2,
+        "name": "Supercartoons",
+        "internalName": "Supercartoons",
+        "authors": [
+            "ByAyzen"
+        ],
+        "description": "Watch Cartoons Online. Here you can Watch old Classical Cartoons like Bugs Bunny, Mickey Mouse, Pink Panther, Tom and Jerry and Many Many More!",
+        "fileSize": 11416,
+        "repositoryUrl": "https://github.com/Kraptor123/Cs-Karma",
+        "language": "en",
+        "tvTypes": [
+            "Cartoon"
+        ],
+        "iconUrl": "https://i.imgur.com/LBfX2k3.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-70b55d491bf7b012a9f0ba46161a3696314c52126a792b191c35eee7e5c1848b"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/SaurabhKaperwan/CSX/builds/CineStream.cs3",
+        "status": 1,
+        "version": 487,
+        "name": "CineStream",
+        "internalName": "CineStream",
+        "authors": [
+            "megix"
+        ],
+        "description": "One stop solution for Movies, Series, Anime, AsianDrama and Torrents",
+        "fileSize": 695013,
+        "repositoryUrl": "https://github.com/SaurabhKaperwan/CSX",
+        "language": "en",
+        "tvTypes": [
+            "TvSeries",
+            "Movie",
+            "AsianDrama",
+            "Anime",
+            "Torrent"
+        ],
+        "iconUrl": "https://github.com/SaurabhKaperwan/CSX/raw/refs/heads/master/CineStream/icon.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-30dc643628702d6b2fe139339e59996783c95a0c1d41efe0a31872ae4d10908b"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/SaurabhKaperwan/CSX/builds/Moviesmod.cs3",
+        "status": 1,
+        "version": 33,
+        "name": "Moviesmod",
+        "internalName": "Moviesmod",
+        "authors": [
+            "megix"
+        ],
+        "description": "Includes Topmovies",
+        "fileSize": 44518,
+        "repositoryUrl": "https://github.com/SaurabhKaperwan/CSX",
+        "tvTypes": [
+            "TvSeries",
+            "Movie",
+            "AsianDrama",
+            "Anime"
+        ],
+        "iconUrl": "https://github.com/SaurabhKaperwan/CSX/raw/refs/heads/master/Moviesmod/icon.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-9433fd970480a53f52f3ec4b49d3213c7bda5a26b109dc80ef82cd2ec13a37a7"
+    },
+    {
+        "version": 13,
+        "internalName": "NetNaija",
+        "name": "AllDubz",
+        "pluginClassName": "com.allforu.NetNaijaPlugin",
+        "status": 1,
+        "apiVersion": 1,
+        "language": "en",
+        "authors": [
+            "AllForU"
+        ],
+        "tvTypes": [
+            "Movie",
+            "TvSeries",
+            "Anime",
+            "AnimeMovie"
+        ],
+        "repositoryUrl": "https://github.com/RVRBEAST76/allforu-repo",
+        "url": "https://raw.githubusercontent.com/RVRBEAST76/allforu-repo/builds/NetNaija-v13.cs3",
+        "description": "AllDubz - Movies, series & anime in every region dub (configurable host, sources & sections)",
+        "iconUrl": "https://raw.githubusercontent.com/RVRBEAST76/allforu-repo/main/alldubz.png",
+        "fileHash": "sha256-a583b5eef5c448073ed920b9022b346649cf7b9ca6b2b69f778169d0859ffe82",
+        "fileSize": 86180
+    },
+    {
         "iconUrl": "https://www.google.com/s2/favicons?domain=themoviedb.org&sz=%size%",
-        "fileHash": "sha256-7eb420ad745b3497298ad74fc45ea79e3ee09aba3dc69bc0e33685579a850e94",
+        "fileHash": "sha256-e6aeddf5161f9daba638802e4e09e950fc6fe572e5a3d1b927885430db85e64d",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/DarisPrg/Costa-Plugins",
-        "fileSize": 33229,
+        "fileSize": 33249,
+        "status": 1,
+        "language": "es-AR",
+        "authors": [
+            "DarisPrg"
+        ],
+        "tvTypes": [
+            "Movie"
+        ],
+        "version": 6,
+        "internalName": "Clasicos80",
+        "description": "Clásicos de los 80 en español latino. Busca en tus proveedores instalados.",
+        "url": "https://raw.githubusercontent.com/DarisPrg/Costa-Plugins/builds/Clasicos80.cs3",
+        "name": "Clasicos80"
+    },
+    {
+        "iconUrl": "https://www.google.com/s2/favicons?domain=themoviedb.org&sz=%size%",
+        "fileHash": "sha256-905a7adf2f5d154e97a727c5eeb5db756f5cabde54ea69ca8a89c7b55a847fa6",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/DarisPrg/Costa-Plugins",
+        "fileSize": 33345,
         "status": 1,
         "language": "es-AR",
         "authors": [
@@ -722,26 +939,6 @@
             "Movie"
         ],
         "version": 5,
-        "internalName": "Clasicos80",
-        "description": "Clásicos de los 80 en español latino. Busca en tus proveedores instalados.",
-        "url": "https://raw.githubusercontent.com/DarisPrg/Costa-Plugins/builds/Clasicos80.cs3",
-        "name": "Clasicos80"
-    },
-    {
-        "iconUrl": "https://www.google.com/s2/favicons?domain=themoviedb.org&sz=%size%",
-        "fileHash": "sha256-be0b21872f566217eb72c44c0d605997227be0fe55c33015a918a10d776dbe5d",
-        "apiVersion": 1,
-        "repositoryUrl": "https://github.com/DarisPrg/Costa-Plugins",
-        "fileSize": 33349,
-        "status": 1,
-        "language": "es-AR",
-        "authors": [
-            "DarisPrg"
-        ],
-        "tvTypes": [
-            "Movie"
-        ],
-        "version": 4,
         "internalName": "Clasicos90",
         "description": "Clásicos de los 90 en español latino. Busca en tus proveedores instalados.",
         "url": "https://raw.githubusercontent.com/DarisPrg/Costa-Plugins/builds/Clasicos90.cs3",
@@ -749,7 +946,7 @@
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=themoviedb.org&sz=%size%",
-        "fileHash": "sha256-d8d4963930dcaffd81866cc0ac43d4d378209c1b62af7ce28816b52ff5c983be",
+        "fileHash": "sha256-aae7a0fd2aac31fa06e0f284e1e7926182abde21905232c31365fbd8e7ad81e9",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/DarisPrg/Costa-Plugins",
         "fileSize": 33730,
@@ -761,7 +958,7 @@
         "tvTypes": [
             "Movie"
         ],
-        "version": 4,
+        "version": 5,
         "internalName": "ModoVacaciones",
         "description": "Todo el cine en un solo lugar: estrenos, géneros, infantiles y clásicos. Busca en tus proveedores instalados.",
         "url": "https://raw.githubusercontent.com/DarisPrg/Costa-Plugins/builds/ModoVacaciones.cs3",
