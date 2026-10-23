@@ -1,7 +1,7 @@
 # Plugins de Costa Stream
 # Cada fuente empieza con su URL de plugins.json entre corchetes: [https://...]
 # Debajo van los nombres (internalName) que querés de esa fuente, uno por línea.
-# Las líneas que empiezan con # se ignoran.
+# Las líneas que empiezan con # se ignoran (sirve para "apagar" un plugin sin borrarlo).
 
 # ---- Storm-ext Fork by redblacker8 ----
 [https://raw.githubusercontent.com/redblacker8/storm-ext/builds/plugins.json]
@@ -21,7 +21,7 @@ DoramasFlixProvider
 DoramasYTProvider
 EntrepeliculasyseriesProvider
 HDFullProvider
-JKAnimeProvider
+# JKAnimeProvider   (anime: fuera del objetivo de Costa Stream)
 LACartoonsProvider
 LaMovieProvider
 PeliculasFlixProvider
@@ -45,6 +45,25 @@ InternetArchiveProvider
 [https://raw.githubusercontent.com/phisher98/cloudstream-extensions-phisher/refs/heads/builds/plugins.json]
 YTS
 StreamPlay
+AllMovieLandProvider
+Cinemacity
+
+# ---- Cs-Karma ----
+[https://raw.githubusercontent.com/Kraptor123/Cs-Karma/builds/plugins.json]
+Flixlatam
+Gnulahd
+Hackstore
+DocumentaryArea
+Supercartoons
+
+# ---- Megix Repo (CSX) ----
+[https://raw.githubusercontent.com/SaurabhKaperwan/CSX/builds/plugins.json]
+CineStream
+Moviesmod
+
+# ---- AllForU ----
+[https://raw.githubusercontent.com/RVRBEAST76/allforu-repo/builds/plugins.json]
+NetNaija
 
 # ---- Mis plugins ----
 [https://raw.githubusercontent.com/DarisPrg/Costa-Plugins/builds/plugins.json]
