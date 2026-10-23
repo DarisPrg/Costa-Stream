@@ -709,10 +709,30 @@
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=themoviedb.org&sz=%size%",
-        "fileHash": "sha256-9655ba965118eb7d51b5b26c93c6e35bb8355611031a688d107676fe24784624",
+        "fileHash": "sha256-7eb420ad745b3497298ad74fc45ea79e3ee09aba3dc69bc0e33685579a850e94",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/DarisPrg/Costa-Plugins",
-        "fileSize": 32492,
+        "fileSize": 33229,
+        "status": 1,
+        "language": "es-AR",
+        "authors": [
+            "DarisPrg"
+        ],
+        "tvTypes": [
+            "Movie"
+        ],
+        "version": 5,
+        "internalName": "Clasicos80",
+        "description": "Clásicos de los 80 en español latino. Busca en tus proveedores instalados.",
+        "url": "https://raw.githubusercontent.com/DarisPrg/Costa-Plugins/builds/Clasicos80.cs3",
+        "name": "Clasicos80"
+    },
+    {
+        "iconUrl": "https://www.google.com/s2/favicons?domain=themoviedb.org&sz=%size%",
+        "fileHash": "sha256-be0b21872f566217eb72c44c0d605997227be0fe55c33015a918a10d776dbe5d",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/DarisPrg/Costa-Plugins",
+        "fileSize": 33349,
         "status": 1,
         "language": "es-AR",
         "authors": [
@@ -722,26 +742,6 @@
             "Movie"
         ],
         "version": 4,
-        "internalName": "Clasicos80",
-        "description": "Clásicos de los 80 en español latino. Busca en tus proveedores instalados.",
-        "url": "https://raw.githubusercontent.com/DarisPrg/Costa-Plugins/builds/Clasicos80.cs3",
-        "name": "Clasicos80"
-    },
-    {
-        "iconUrl": "https://www.google.com/s2/favicons?domain=themoviedb.org&sz=%size%",
-        "fileHash": "sha256-8de24451fc7f41769b027ae32e2a738fdb4a02b8aeb26feeb002a3c4e3364aa1",
-        "apiVersion": 1,
-        "repositoryUrl": "https://github.com/DarisPrg/Costa-Plugins",
-        "fileSize": 32543,
-        "status": 1,
-        "language": "es-AR",
-        "authors": [
-            "DarisPrg"
-        ],
-        "tvTypes": [
-            "Movie"
-        ],
-        "version": 3,
         "internalName": "Clasicos90",
         "description": "Clásicos de los 90 en español latino. Busca en tus proveedores instalados.",
         "url": "https://raw.githubusercontent.com/DarisPrg/Costa-Plugins/builds/Clasicos90.cs3",
@@ -749,10 +749,10 @@
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=themoviedb.org&sz=%size%",
-        "fileHash": "sha256-ca793aaccb4aef8dbbdace90f6fb1849178ddeb55f53c044cc251035e6571efd",
+        "fileHash": "sha256-d8d4963930dcaffd81866cc0ac43d4d378209c1b62af7ce28816b52ff5c983be",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/DarisPrg/Costa-Plugins",
-        "fileSize": 32948,
+        "fileSize": 33730,
         "status": 1,
         "language": "es-AR",
         "authors": [
@@ -761,7 +761,7 @@
         "tvTypes": [
             "Movie"
         ],
-        "version": 3,
+        "version": 4,
         "internalName": "ModoVacaciones",
         "description": "Todo el cine en un solo lugar: estrenos, géneros, infantiles y clásicos. Busca en tus proveedores instalados.",
         "url": "https://raw.githubusercontent.com/DarisPrg/Costa-Plugins/builds/ModoVacaciones.cs3",
