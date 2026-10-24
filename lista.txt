@@ -70,4 +70,5 @@ NetNaija
 Clasicos80
 Clasicos90
 ModoVacaciones
-CostaVivo
+# CostaVivo        ← comentado: pasa a la app de TV aparte
+CostaPlataformas
