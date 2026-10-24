@@ -963,5 +963,25 @@
         "description": "Todo el cine en un solo lugar: estrenos, géneros, infantiles y clásicos. Busca en tus proveedores instalados.",
         "url": "https://raw.githubusercontent.com/DarisPrg/Costa-Plugins/builds/ModoVacaciones.cs3",
         "name": "ModoVacaciones"
+    },
+    {
+        "iconUrl": "https://www.google.com/s2/favicons?domain=iptv-org.github.io&sz=%size%",
+        "fileHash": "sha256-9c85fc38bf967aee3c7fe9df035f25d96365a2baae60b49929e63f409b5b3e16",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/DarisPrg/Costa-Plugins",
+        "fileSize": 17653,
+        "status": 3,
+        "language": "es-AR",
+        "authors": [
+            "DarisPrg"
+        ],
+        "tvTypes": [
+            "Live"
+        ],
+        "version": 1,
+        "internalName": "CostaVivo",
+        "description": "Canales en vivo y 24/7 gratuitos en español: series, dibujos, películas, noticias y canales argentinos.",
+        "url": "https://raw.githubusercontent.com/DarisPrg/Costa-Plugins/builds/CostaVivo.cs3",
+        "name": "CostaVivo"
     }
 ]
