@@ -965,23 +965,23 @@
         "name": "ModoVacaciones"
     },
     {
-        "iconUrl": "https://www.google.com/s2/favicons?domain=iptv-org.github.io&sz=%size%",
-        "fileHash": "sha256-9c85fc38bf967aee3c7fe9df035f25d96365a2baae60b49929e63f409b5b3e16",
+        "iconUrl": "https://www.google.com/s2/favicons?domain=themoviedb.org&sz=%size%",
+        "fileHash": "sha256-a44bbc87e8b8e223e16b31a46e234a213032670ba55bcc4b20a51ee4e83224b1",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/DarisPrg/Costa-Plugins",
-        "fileSize": 17653,
+        "fileSize": 33143,
         "status": 3,
         "language": "es-AR",
         "authors": [
             "DarisPrg"
         ],
         "tvTypes": [
-            "Live"
+            "Movie"
         ],
         "version": 1,
-        "internalName": "CostaVivo",
-        "description": "Canales en vivo y 24/7 gratuitos en español: series, dibujos, películas, noticias y canales argentinos.",
-        "url": "https://raw.githubusercontent.com/DarisPrg/Costa-Plugins/builds/CostaVivo.cs3",
-        "name": "CostaVivo"
+        "internalName": "CostaPlataformas",
+        "description": "Explorá por plataforma: qué hay en Netflix, Disney+, Prime Video, Max y más. Reproduce con tus proveedores instalados.",
+        "url": "https://raw.githubusercontent.com/DarisPrg/Costa-Plugins/builds/CostaPlataformas.cs3",
+        "name": "CostaPlataformas"
     }
 ]
