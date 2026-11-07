@@ -326,13 +326,13 @@
     {
         "url": "https://raw.githubusercontent.com/redblacker8/storm-ext/builds/LACartoonsProvider.cs3",
         "status": 1,
-        "version": 5,
+        "version": 6,
         "name": "LACartoonsProvider",
         "internalName": "LACartoonsProvider",
         "authors": [
             "Stormunblessed"
         ],
-        "fileSize": 15241,
+        "fileSize": 20647,
         "repositoryUrl": "https://github.com/redblacker8/storm-ext",
         "language": "es",
         "tvTypes": [
@@ -341,7 +341,7 @@
         ],
         "iconUrl": "https://www.google.com/s2/favicons?domain=lacartoons.com&sz=%size%",
         "apiVersion": 1,
-        "fileHash": "sha256-2bbdd43461dd4a11cd949649004e945fd6009ff519c0470ca653ff099e60a2a6"
+        "fileHash": "sha256-8ba9f23e1d2d34685fdc59e10dd318e8e5baf91d74b66a2311a4e0bec7fd3410"
     },
     {
         "url": "https://raw.githubusercontent.com/redblacker8/storm-ext/builds/LaMovieProvider.cs3",
@@ -405,7 +405,7 @@
     },
     {
         "url": "https://raw.githubusercontent.com/redblacker8/storm-ext/builds/Pelisplus4KProvider.cs3",
-        "status": 1,
+        "status": 0,
         "version": 13,
         "name": "Pelisplus4KProvider",
         "internalName": "Pelisplus4KProvider",
@@ -428,13 +428,13 @@
     {
         "url": "https://raw.githubusercontent.com/redblacker8/storm-ext/builds/PelisplusHDProvider.cs3",
         "status": 1,
-        "version": 11,
+        "version": 12,
         "name": "PelisplusHDProvider",
         "internalName": "PelisplusHDProvider",
         "authors": [
             "Stormunblessed"
         ],
-        "fileSize": 38519,
+        "fileSize": 40681,
         "repositoryUrl": "https://github.com/redblacker8/storm-ext",
         "language": "mx",
         "tvTypes": [
@@ -443,7 +443,7 @@
         ],
         "iconUrl": "https://www.google.com/s2/favicons?domain=pelisplushd.nu&sz=%size%",
         "apiVersion": 1,
-        "fileHash": "sha256-e71c24f03079e50a938bef0bba3649b4e698f5236ebdaeda53977fcde90e4c7d"
+        "fileHash": "sha256-278471aae9ae0dba6ef8d5ced46907df4e8c310d9a20ec1b7c9663e7a6d03d52"
     },
     {
         "url": "https://raw.githubusercontent.com/redblacker8/storm-ext/builds/SeriesflixProvider.cs3",
