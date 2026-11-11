@@ -841,7 +841,7 @@
         "fileHash": "sha256-9433fd970480a53f52f3ec4b49d3213c7bda5a26b109dc80ef82cd2ec13a37a7"
     },
     {
-        "version": 18,
+        "version": 20,
         "internalName": "NetNaija",
         "name": "AllDubz",
         "pluginClassName": "com.allforu.NetNaijaPlugin",
@@ -858,11 +858,11 @@
             "AnimeMovie"
         ],
         "repositoryUrl": "https://github.com/RVRBEAST76/allforu-repo",
-        "url": "https://raw.githubusercontent.com/RVRBEAST76/allforu-repo/builds/NetNaija-v18.cs3",
+        "url": "https://raw.githubusercontent.com/RVRBEAST76/allforu-repo/builds/NetNaija-v20.cs3",
         "description": "AllDubz - Movies, series & anime in every region dub (configurable host, sources & sections)",
         "iconUrl": "https://raw.githubusercontent.com/RVRBEAST76/allforu-repo/main/alldubz.png",
-        "fileHash": "sha256-b9976122de840fd1dea03027dfe25752ce1bc17f5dbe28864615226f8387d24c",
-        "fileSize": 101479
+        "fileHash": "sha256-0c2f12e944edba4642d5506a903313ff19e5ba474eb9c3b330c5e90ee386630a",
+        "fileSize": 103247
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=themoviedb.org&sz=%size%",
