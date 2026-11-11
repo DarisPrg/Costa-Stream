@@ -624,15 +624,15 @@
     {
         "url": "https://raw.githubusercontent.com/phisher98/cloudstream-extensions-phisher/builds/StreamPlay.cs3",
         "status": 1,
-        "version": 695,
+        "version": 701,
         "name": "StreamPlay",
         "internalName": "StreamPlay",
         "authors": [
             "Phisher98",
             "Hexated"
         ],
-        "description": "#1 best extention based on MultiAPI",
-        "fileSize": 2125645,
+        "description": "#1 best extension based on MultiAPI",
+        "fileSize": 2133620,
         "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
         "language": "en",
         "tvTypes": [
@@ -645,7 +645,7 @@
         ],
         "iconUrl": "https://i3.wp.com/yt3.googleusercontent.com/ytc/AIdro_nCBArSmvOc6o-k2hTYpLtQMPrKqGtAw_nC20rxm70akA=s900-c-k-c0x00ffffff-no-rj?ssl=1",
         "apiVersion": 1,
-        "fileHash": "sha256-a58a27c075c636c59f9dea96592313c4ebee9d401285771c13ab2af4e1d238b7"
+        "fileHash": "sha256-1263d1e738686b2fb06bd71bc992fea7cd77651d398d9b2ee72adaa3c6da0b87"
     },
     {
         "url": "https://raw.githubusercontent.com/phisher98/cloudstream-extensions-phisher/builds/AllMovieLandProvider.cs3",
@@ -841,7 +841,7 @@
         "fileHash": "sha256-9433fd970480a53f52f3ec4b49d3213c7bda5a26b109dc80ef82cd2ec13a37a7"
     },
     {
-        "version": 17,
+        "version": 18,
         "internalName": "NetNaija",
         "name": "AllDubz",
         "pluginClassName": "com.allforu.NetNaijaPlugin",
@@ -858,11 +858,11 @@
             "AnimeMovie"
         ],
         "repositoryUrl": "https://github.com/RVRBEAST76/allforu-repo",
-        "url": "https://raw.githubusercontent.com/RVRBEAST76/allforu-repo/builds/NetNaija-v17.cs3",
+        "url": "https://raw.githubusercontent.com/RVRBEAST76/allforu-repo/builds/NetNaija-v18.cs3",
         "description": "AllDubz - Movies, series & anime in every region dub (configurable host, sources & sections)",
         "iconUrl": "https://raw.githubusercontent.com/RVRBEAST76/allforu-repo/main/alldubz.png",
-        "fileHash": "sha256-fc5b2cc07768bfbf2e647fb74a79f0be1e3cdd0e488652ea2c0243ebaab4c6fb",
-        "fileSize": 90730
+        "fileHash": "sha256-b9976122de840fd1dea03027dfe25752ce1bc17f5dbe28864615226f8387d24c",
+        "fileSize": 101479
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=themoviedb.org&sz=%size%",
