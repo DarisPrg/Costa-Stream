@@ -206,26 +206,6 @@
         "fileHash": "sha256-3b3c01ac4d04e34b7beed5969c1d6ad964b9bc957c3f892b9094d373974f17fc"
     },
     {
-        "url": "https://raw.githubusercontent.com/redblacker8/storm-ext/builds/DeporTVProvider.cs3",
-        "status": 1,
-        "version": 34,
-        "name": "DeporTVProvider",
-        "internalName": "DeporTVProvider",
-        "authors": [
-            "redblacker8"
-        ],
-        "description": "Deportes eventos en vivo. Sports live events. Futbol. Soccer.",
-        "fileSize": 121659,
-        "repositoryUrl": "https://github.com/redblacker8/storm-ext",
-        "language": "mx",
-        "tvTypes": [
-            "Live"
-        ],
-        "iconUrl": "https://yt3.googleusercontent.com/T_d2j2xZMjAxPCehiFR6hAv7jE3swcUzfgV8wCXzv1IL7rCEDv3cgQtIxjdmLVyP6ZrSgIu0nw=s900-c-k-c0x00ffffff-no-rj",
-        "apiVersion": 1,
-        "fileHash": "sha256-0997424ce790efd3cee2fb04d99409fa7801f69f67e31d206abc75b06f379849"
-    },
-    {
         "url": "https://raw.githubusercontent.com/redblacker8/storm-ext/builds/DocumaniaTVProvider.cs3",
         "status": 1,
         "version": 2,
@@ -507,26 +487,6 @@
         "iconUrl": "https://sololatino.net/wp-content/uploads/2020/10/cropped-logo-final-192x192.png",
         "apiVersion": 1,
         "fileHash": "sha256-d72eab69b82ce856f97fd72d0748d41b01f205ee12414c4bd1268be196627f41"
-    },
-    {
-        "url": "https://raw.githubusercontent.com/redblacker8/storm-ext/builds/StreamedProvider.cs3",
-        "status": 1,
-        "version": 3,
-        "name": "StreamedProvider",
-        "internalName": "StreamedProvider",
-        "authors": [
-            "redblacker8"
-        ],
-        "description": "Multilang live sports",
-        "fileSize": 43092,
-        "repositoryUrl": "https://github.com/redblacker8/storm-ext",
-        "language": "en",
-        "tvTypes": [
-            "Live"
-        ],
-        "iconUrl": "https://sportsbite.org/og-image.png",
-        "apiVersion": 1,
-        "fileHash": "sha256-9caed42a9132a3fdb21f6f1bcdf03314b608997135d0e01f1d68e218fd5ea15f"
     },
     {
         "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/3840px-YouTube_full-color_icon_%282017%29.svg.png",
