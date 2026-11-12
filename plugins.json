@@ -610,7 +610,7 @@
             "Phisher98"
         ],
         "description": "YTS Movies 4K Support (Torrent)",
-        "fileSize": 44496,
+        "fileSize": 44781,
         "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
         "language": "en",
         "tvTypes": [
@@ -619,12 +619,12 @@
         ],
         "iconUrl": "https://raw.githubusercontent.com/phisher98/TVVVV/refs/heads/main/Icons/yts.png",
         "apiVersion": 1,
-        "fileHash": "sha256-00a62a43f2e9105211efd729d7b89bcef1b8a59725131bb0bd1c4937f8d9c3ba"
+        "fileHash": "sha256-6bd5225c3e3a7dec83dc23fea140c294d9f6845ef36481b3dddeac4f6b8cc193"
     },
     {
         "url": "https://raw.githubusercontent.com/phisher98/cloudstream-extensions-phisher/builds/StreamPlay.cs3",
         "status": 1,
-        "version": 701,
+        "version": 709,
         "name": "StreamPlay",
         "internalName": "StreamPlay",
         "authors": [
@@ -632,7 +632,7 @@
             "Hexated"
         ],
         "description": "#1 best extension based on MultiAPI",
-        "fileSize": 2133620,
+        "fileSize": 2181036,
         "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
         "language": "en",
         "tvTypes": [
@@ -645,7 +645,7 @@
         ],
         "iconUrl": "https://i3.wp.com/yt3.googleusercontent.com/ytc/AIdro_nCBArSmvOc6o-k2hTYpLtQMPrKqGtAw_nC20rxm70akA=s900-c-k-c0x00ffffff-no-rj?ssl=1",
         "apiVersion": 1,
-        "fileHash": "sha256-1263d1e738686b2fb06bd71bc992fea7cd77651d398d9b2ee72adaa3c6da0b87"
+        "fileHash": "sha256-b4ad26b1d2f18cd30450e4dd75242dd8bfcaf475e30dcca4924613abe9f5397e"
     },
     {
         "url": "https://raw.githubusercontent.com/phisher98/cloudstream-extensions-phisher/builds/AllMovieLandProvider.cs3",
@@ -657,7 +657,7 @@
             "Phisher98"
         ],
         "description": "Indian MultiLanguage Provider (Mostly Hindi)",
-        "fileSize": 86145,
+        "fileSize": 87117,
         "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
         "language": "hi",
         "tvTypes": [
@@ -667,19 +667,19 @@
         ],
         "iconUrl": "https://raw.githubusercontent.com/LikDev-256/likdev256-tamil-providers/master/AllMovieLandProvider/icon.png",
         "apiVersion": 1,
-        "fileHash": "sha256-53e44ea69ea4375cc559bce9fd6e671f7daffc95142bb36a8ea56c6aefc16b3a"
+        "fileHash": "sha256-ef5a86023a81298534f3423bdae56f296a8a1945738df8c7855d5a765bd1f8cc"
     },
     {
         "url": "https://raw.githubusercontent.com/phisher98/cloudstream-extensions-phisher/builds/Cinemacity.cs3",
         "status": 1,
-        "version": 27,
+        "version": 30,
         "name": "Cinemacity",
         "internalName": "Cinemacity",
         "authors": [
             "Phisher98"
         ],
         "description": "Watch Movies & TvSeries (Multi-Lang/Audio)",
-        "fileSize": 133510,
+        "fileSize": 176877,
         "repositoryUrl": "https://github.com/phisher98/cloudstream-extensions-phisher",
         "language": "en",
         "tvTypes": [
@@ -688,7 +688,7 @@
         ],
         "iconUrl": "https://www.google.com/s2/favicons?domain=cinemacity.cc&sz=%size%",
         "apiVersion": 1,
-        "fileHash": "sha256-92725fcf1cdb99a4f63037d8795dc75ddf034d1d126f868521d961294c077878"
+        "fileHash": "sha256-c2f624e35e22ab9a9fc1418f61bbcde12bdbf6ea43dc9e3417364fd49d4a5f69"
     },
     {
         "url": "https://raw.githubusercontent.com/Kraptor123/Cs-Karma/builds/Flixlatam.cs3",
