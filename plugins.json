@@ -266,13 +266,13 @@
     {
         "url": "https://raw.githubusercontent.com/redblacker8/storm-ext/builds/EntrepeliculasyseriesProvider.cs3",
         "status": 1,
-        "version": 11,
+        "version": 12,
         "name": "EntrepeliculasyseriesProvider",
         "internalName": "EntrepeliculasyseriesProvider",
         "authors": [
             "Stormunblessed"
         ],
-        "fileSize": 42488,
+        "fileSize": 47814,
         "repositoryUrl": "https://github.com/redblacker8/storm-ext",
         "language": "mx",
         "tvTypes": [
@@ -281,7 +281,7 @@
         ],
         "iconUrl": "https://www.google.com/s2/favicons?domain=entrepeliculasyseries.nz&sz=%size%",
         "apiVersion": 1,
-        "fileHash": "sha256-8b24b29e9123a7f1fd1e29c3f1e3e45df244a4169ab66a818d4b898a030868e8"
+        "fileHash": "sha256-efb67f3386115729599e7f02eff22be6ffce35f7549bd063b7e1b3c464008b3a"
     },
     {
         "url": "https://raw.githubusercontent.com/redblacker8/storm-ext/builds/HDFullProvider.cs3",
@@ -408,13 +408,13 @@
     {
         "url": "https://raw.githubusercontent.com/redblacker8/storm-ext/builds/PelisplusHDProvider.cs3",
         "status": 1,
-        "version": 13,
+        "version": 14,
         "name": "PelisplusHDProvider",
         "internalName": "PelisplusHDProvider",
         "authors": [
             "Stormunblessed"
         ],
-        "fileSize": 41019,
+        "fileSize": 46271,
         "repositoryUrl": "https://github.com/redblacker8/storm-ext",
         "language": "mx",
         "tvTypes": [
@@ -423,7 +423,7 @@
         ],
         "iconUrl": "https://www.google.com/s2/favicons?domain=pelisplushd.nu&sz=%size%",
         "apiVersion": 1,
-        "fileHash": "sha256-2c063f634539507884f0b78300277401c829728abdc66ed84fed4bcf8ac1f2fe"
+        "fileHash": "sha256-18a05edae96a0c371168f6110c5886eed8a8e6a708fd2ee7193b393957a5f227"
     },
     {
         "url": "https://raw.githubusercontent.com/redblacker8/storm-ext/builds/SeriesflixProvider.cs3",
@@ -468,14 +468,14 @@
     {
         "url": "https://raw.githubusercontent.com/redblacker8/storm-ext/builds/SoloLatinoProvider.cs3",
         "status": 1,
-        "version": 11,
+        "version": 12,
         "name": "SoloLatinoProvider",
         "internalName": "SoloLatinoProvider",
         "authors": [
             "redblacker8"
         ],
         "description": "Peliculas, series, animes y cartoons en Español y Español Latio",
-        "fileSize": 52750,
+        "fileSize": 58778,
         "repositoryUrl": "https://github.com/redblacker8/storm-ext",
         "language": "mx",
         "tvTypes": [
@@ -486,7 +486,7 @@
         ],
         "iconUrl": "https://sololatino.net/wp-content/uploads/2020/10/cropped-logo-final-192x192.png",
         "apiVersion": 1,
-        "fileHash": "sha256-d72eab69b82ce856f97fd72d0748d41b01f205ee12414c4bd1268be196627f41"
+        "fileHash": "sha256-5569ad9f5b81d6587cb0e4d00fe034a3ebf9e541d080b3efc2cba5166190082b"
     },
     {
         "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/3840px-YouTube_full-color_icon_%282017%29.svg.png",
