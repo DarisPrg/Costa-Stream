@@ -693,14 +693,14 @@
     {
         "url": "https://raw.githubusercontent.com/Kraptor123/Cs-Karma/builds/Flixlatam.cs3",
         "status": 1,
-        "version": 9,
+        "version": 10,
         "name": "Flixlatam",
         "internalName": "Flixlatam",
         "authors": [
             "ByAyzen"
         ],
         "description": "Mira tus Series, Películas y Animes en Latino Online!",
-        "fileSize": 78003,
+        "fileSize": 76816,
         "repositoryUrl": "https://github.com/Kraptor123/Cs-Karma",
         "language": "mx",
         "tvTypes": [
@@ -708,19 +708,19 @@
         ],
         "iconUrl": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://flixlatam.com&size=128",
         "apiVersion": 1,
-        "fileHash": "sha256-00c99bdd57e1628924143a9010688e5e5e40b860b95e2947672b9d7f97e4cb79"
+        "fileHash": "sha256-070bf24473aa40223c239712a05f57c2af8086ec8d1bea796907f33d7db25e6a"
     },
     {
         "url": "https://raw.githubusercontent.com/Kraptor123/Cs-Karma/builds/Gnulahd.cs3",
         "status": 1,
-        "version": 12,
+        "version": 13,
         "name": "Gnulahd",
         "internalName": "Gnulahd",
         "authors": [
             "ByAyzen"
         ],
         "description": "GnulaHD",
-        "fileSize": 74331,
+        "fileSize": 74408,
         "repositoryUrl": "https://github.com/Kraptor123/Cs-Karma",
         "language": "mx",
         "tvTypes": [
@@ -730,7 +730,7 @@
         ],
         "iconUrl": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://ww3.gnulahd.nu/&size=128",
         "apiVersion": 1,
-        "fileHash": "sha256-e2a9afff330c850bbcdd4bdfaaa40ef9558edee563006816115e2802e91f6798"
+        "fileHash": "sha256-4c57118add1d28744e25177de7b18e4ae5fd2f93be1ee74821d0fae709161d0c"
     },
     {
         "url": "https://raw.githubusercontent.com/Kraptor123/Cs-Karma/builds/Hackstore.cs3",
